@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+
 
 namespace APICatalogo.Models
 {
@@ -9,5 +7,6 @@ namespace APICatalogo.Models
     {
         public string Nome { get; set; }
         public string ImageURL { get; set; }
+        public ICollection<Produto> Produto { get; set; }
     }
 }

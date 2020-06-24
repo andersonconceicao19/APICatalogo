@@ -14,5 +14,9 @@ namespace APICatalogo.Models
         public int Estoque { get; set; }
         public DateTime DataCadastro { get; set; } = DateTime.Now;
 
+        public Guid CategoriaId { get; set; }
+        public Categoria Categoria { get; set; }
+
+
     }
 }
