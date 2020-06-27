@@ -10,9 +10,9 @@ namespace APICatalogo.Repositories.Interfaces
     {
         Task<IEnumerable<Produto>> ObterTodos();
         Task<Produto> ObterPorId(Guid id);
-        Task<Produto> Adicionar(TEntity entity);
-        Task<Produto> Remover(Guid id);
-        Task<Produto> Atualizar(TEntity entity);
+        Task Adicionar(TEntity entity);
+        Task Remover(Guid id);
+        Task Atualizar(TEntity entity);
 
     }
 }
