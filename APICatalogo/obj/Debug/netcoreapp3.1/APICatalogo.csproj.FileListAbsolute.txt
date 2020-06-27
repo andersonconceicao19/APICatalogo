@@ -103,6 +103,7 @@ C:\Users\ander\Desktop\APICatalogo\APICatalogo\obj\Debug\netcoreapp3.1\staticweb
 C:\Users\ander\Desktop\APICatalogo\APICatalogo\obj\Debug\netcoreapp3.1\APICatalogo.dll
 C:\Users\ander\Desktop\APICatalogo\APICatalogo\obj\Debug\netcoreapp3.1\APICatalogo.pdb
 C:\Users\ander\Desktop\APICatalogo\APICatalogo\obj\Debug\netcoreapp3.1\APICatalogo.genruntimeconfig.cache
+C:\Users\ander\Desktop\APICatalogo\APICatalogo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\ander\Desktop\APICatalogo\APICatalogo\obj\Debug\netcoreapp3.1\APICatalogo.csprojAssemblyReference.cache
 C:\Users\ander\Desktop\APICatalogo\APICatalogo\obj\Debug\netcoreapp3.1\APICatalogo.csproj.CoreCompileInputs.cache
 C:\Users\ander\Desktop\APICatalogo\APICatalogo\obj\Debug\netcoreapp3.1\APICatalogo.MvcApplicationPartsAssemblyInfo.cache

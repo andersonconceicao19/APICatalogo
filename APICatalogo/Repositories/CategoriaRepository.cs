@@ -9,22 +9,8 @@ using System.Threading.Tasks;
 
 namespace APICatalogo.Repositories
 {
-    public class CategoriaRepository : ICategoriaRepository<Categoria>
+    public class CategoriaRepository : Repository<Categoria>, ICategoriaRepository
     {
-        private readonly DContext _context;
-
-        public CategoriaRepository(DContext context)
-        {
-            _context = context;
-        }
-
-        public async Task<IEnumerable<Categoria>> ObterTodasCategorias()
-        {
-            return await _context.Categorias.ToListAsync();
-        }
-        public void Dispose()
-        {
-            _context?.Dispose();
-        }
+        public CategoriaRepository(DContext context) : base(context) { }
     }
 }
