@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using APICatalogo.DataContext;
-using APICatalogo.Models;
-using APICatalogo.Repositories.Interfaces;
+﻿using APICatalogo.Domain.Interfaces;
+using APICatalogo.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APICatalogo.Controllers
@@ -13,8 +8,9 @@ namespace APICatalogo.Controllers
     [ApiController]
     public class CategoriaController : ControllerBase
     {
-        private readonly DContext _categ;
-        public CategoriaController(DContext categ)
+        
+         private readonly ICategoriaRepository _categ;
+        public CategoriaController(ICategoriaRepository categ)
         {
             _categ = categ;
         }
@@ -22,15 +18,16 @@ namespace APICatalogo.Controllers
         [HttpPost("novacategoria")]
         public IActionResult Adicionar(Categoria categoria)
         {
-            var result =  _categ.Categorias.Add(categoria);
-            _categ.SaveChanges();
+            var result =  _categ.Adicionar(categoria);
             return Ok(result);
         }
 
         public IActionResult Index()
         {
-            var result = _categ.Categorias.ToList();
+            var result = _categ.ObterTodos();
             return Ok(result);
         }
+         
+         
     }
 }

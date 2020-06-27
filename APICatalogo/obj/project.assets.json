@@ -1289,6 +1289,32 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "APICatalogo.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "APICatalogo.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.5",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5"
+        },
+        "compile": {
+          "bin/placeholder/APICatalogo.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APICatalogo.Data.dll": {}
+        }
+      },
+      "APICatalogo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/APICatalogo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APICatalogo.Domain.dll": {}
+        }
       }
     }
   },
@@ -5031,12 +5057,22 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "APICatalogo.Data/1.0.0": {
+      "type": "project",
+      "path": "../APICatalogo.Data/APICatalogo.Data.csproj",
+      "msbuildProject": "../APICatalogo.Data/APICatalogo.Data.csproj"
+    },
+    "APICatalogo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../APICatalogo.Domain/APICatalogo.Domain.csproj",
+      "msbuildProject": "../APICatalogo.Domain/APICatalogo.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "APICatalogo.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.5",
-      "Microsoft.EntityFrameworkCore.Relational >= 3.1.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.5",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.5",
       "Newtonsoft.Json >= 12.0.3"
@@ -5067,7 +5103,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ander\\Desktop\\APICatalogo\\APICatalogo.Data\\APICatalogo.Data.csproj": {
+              "projectPath": "C:\\Users\\ander\\Desktop\\APICatalogo\\APICatalogo.Data\\APICatalogo.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5080,10 +5120,6 @@
       "netcoreapp3.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[3.1.5, )"
-          },
-          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[3.1.5, )"
           },

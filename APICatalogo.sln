@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICatalogo", "APICatalogo\APICatalogo.csproj", "{289E4A46-5B4C-4D6F-A550-19E3FAD8DA91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICatalogo", "APICatalogo\APICatalogo.csproj", "{289E4A46-5B4C-4D6F-A550-19E3FAD8DA91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICatalogo.Domain", "APICatalogo.Domain\APICatalogo.Domain.csproj", "{ACDB5B07-7577-4924-8074-7E470A37AEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICatalogo.Data", "APICatalogo.Data\APICatalogo.Data.csproj", "{D9242D60-D779-43B2-8F2D-943014227A78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{289E4A46-5B4C-4D6F-A550-19E3FAD8DA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{289E4A46-5B4C-4D6F-A550-19E3FAD8DA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{289E4A46-5B4C-4D6F-A550-19E3FAD8DA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDB5B07-7577-4924-8074-7E470A37AEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDB5B07-7577-4924-8074-7E470A37AEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDB5B07-7577-4924-8074-7E470A37AEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDB5B07-7577-4924-8074-7E470A37AEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9242D60-D779-43B2-8F2D-943014227A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9242D60-D779-43B2-8F2D-943014227A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9242D60-D779-43B2-8F2D-943014227A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9242D60-D779-43B2-8F2D-943014227A78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

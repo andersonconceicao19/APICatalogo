@@ -1,6 +1,6 @@
-using APICatalogo.DataContext;
-using APICatalogo.Repositories;
-using APICatalogo.Repositories.Interfaces;
+using APICatalogo.Data.Context;
+using APICatalogo.Data.Repositories;
+using APICatalogo.Domain.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;

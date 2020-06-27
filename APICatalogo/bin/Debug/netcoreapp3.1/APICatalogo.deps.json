@@ -24,8 +24,8 @@
     ".NETCoreApp,Version=v3.1": {
       "APICatalogo/1.0.0": {
         "dependencies": {
+          "APICatalogo.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.5",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.5",
           "Newtonsoft.Json": "12.0.3",
@@ -1224,6 +1224,28 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "APICatalogo.Data/1.0.0": {
+        "dependencies": {
+          "APICatalogo.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.5",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5"
+        },
+        "runtime": {
+          "APICatalogo.Data.dll": {}
+        },
+        "compile": {
+          "APICatalogo.Data.dll": {}
+        }
+      },
+      "APICatalogo.Domain/1.0.0": {
+        "runtime": {
+          "APICatalogo.Domain.dll": {}
+        },
+        "compile": {
+          "APICatalogo.Domain.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3470,6 +3492,16 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "APICatalogo.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "APICatalogo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

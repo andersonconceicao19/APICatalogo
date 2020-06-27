@@ -107,3 +107,7 @@ C:\Users\ander\Desktop\APICatalogo\APICatalogo\bin\Debug\netcoreapp3.1\Newtonsof
 C:\Users\ander\Desktop\APICatalogo\APICatalogo\obj\Debug\netcoreapp3.1\APICatalogo.csprojAssemblyReference.cache
 C:\Users\ander\Desktop\APICatalogo\APICatalogo\obj\Debug\netcoreapp3.1\APICatalogo.csproj.CoreCompileInputs.cache
 C:\Users\ander\Desktop\APICatalogo\APICatalogo\obj\Debug\netcoreapp3.1\APICatalogo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ander\Desktop\APICatalogo\APICatalogo\bin\Debug\netcoreapp3.1\APICatalogo.Data.dll
+C:\Users\ander\Desktop\APICatalogo\APICatalogo\bin\Debug\netcoreapp3.1\APICatalogo.Domain.dll
+C:\Users\ander\Desktop\APICatalogo\APICatalogo\bin\Debug\netcoreapp3.1\APICatalogo.Data.pdb
+C:\Users\ander\Desktop\APICatalogo\APICatalogo\bin\Debug\netcoreapp3.1\APICatalogo.Domain.pdb

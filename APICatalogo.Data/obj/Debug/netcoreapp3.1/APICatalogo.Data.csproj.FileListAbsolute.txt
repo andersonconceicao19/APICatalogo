@@ -1,0 +1,15 @@
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\obj\Debug\netcoreapp3.1\APICatalogo.Data.csprojAssemblyReference.cache
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\obj\Debug\netcoreapp3.1\APICatalogo.Data.AssemblyInfoInputs.cache
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\obj\Debug\netcoreapp3.1\APICatalogo.Data.AssemblyInfo.cs
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\bin\Debug\netcoreapp3.1\APICatalogo.Data.deps.json
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\bin\Debug\netcoreapp3.1\APICatalogo.Data.dll
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\bin\Debug\netcoreapp3.1\APICatalogo.Domain.dll
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\bin\Debug\netcoreapp3.1\APICatalogo.Domain.pdb
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\obj\Debug\netcoreapp3.1\APICatalogo.Data.csproj.CopyComplete
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\bin\Debug\netcoreapp3.1\APICatalogo.Data.pdb
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\obj\Debug\netcoreapp3.1\APICatalogo.Data.dll
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\obj\Debug\netcoreapp3.1\APICatalogo.Data.pdb
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\bin\Debug\netcoreapp3.1\APICatalogo.Data.runtimeconfig.json
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\bin\Debug\netcoreapp3.1\APICatalogo.Data.runtimeconfig.dev.json
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\obj\Debug\netcoreapp3.1\APICatalogo.Data.genruntimeconfig.cache
+C:\Users\ander\Desktop\APICatalogo\APICatalogo.Data\obj\Debug\netcoreapp3.1\APICatalogo.Data.csproj.CoreCompileInputs.cache

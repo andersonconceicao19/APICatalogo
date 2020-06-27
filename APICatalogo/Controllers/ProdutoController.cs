@@ -1,7 +1,6 @@
-﻿
-using APICatalogo.DataContext;
-using APICatalogo.Models;using Microsoft.AspNetCore.Mvc;
-using System.Linq;
+﻿using APICatalogo.Domain.Interfaces;
+using APICatalogo.Domain.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace APICatalogo.Controllers
 {
@@ -9,25 +8,27 @@ namespace APICatalogo.Controllers
     [ApiController]
     public class ProdutoController : ControllerBase
     {
-        private readonly DContext _produto;
-        public ProdutoController(DContext produto)
+        
+        private readonly IProdutoRepository _prod;
+        public ProdutoController(IProdutoRepository produto)
         {
-            _produto = produto;
+            _prod = produto;
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            var result = _produto.Produtos.ToList();
+            var result = _prod.ObterTodos();
             return Ok(result);
         }
 
        [HttpPost("Adicionar")]
         public IActionResult Add(Produto produto)
         {
-            var prod = _produto.Produtos.Add(produto);
+            var prod = _prod.Adicionar(produto);
 
             return Ok(prod);
         }
+         
     }
 }
