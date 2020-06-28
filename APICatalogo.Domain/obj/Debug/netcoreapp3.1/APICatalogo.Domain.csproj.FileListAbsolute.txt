@@ -1,9 +1,0 @@
-C:\Users\ander\Desktop\APICatalogo\APICatalogo.Domain\bin\Debug\netcoreapp3.1\APICatalogo.Domain.deps.json
-C:\Users\ander\Desktop\APICatalogo\APICatalogo.Domain\bin\Debug\netcoreapp3.1\APICatalogo.Domain.dll
-C:\Users\ander\Desktop\APICatalogo\APICatalogo.Domain\bin\Debug\netcoreapp3.1\APICatalogo.Domain.pdb
-C:\Users\ander\Desktop\APICatalogo\APICatalogo.Domain\obj\Debug\netcoreapp3.1\APICatalogo.Domain.csprojAssemblyReference.cache
-C:\Users\ander\Desktop\APICatalogo\APICatalogo.Domain\obj\Debug\netcoreapp3.1\APICatalogo.Domain.AssemblyInfoInputs.cache
-C:\Users\ander\Desktop\APICatalogo\APICatalogo.Domain\obj\Debug\netcoreapp3.1\APICatalogo.Domain.AssemblyInfo.cs
-C:\Users\ander\Desktop\APICatalogo\APICatalogo.Domain\obj\Debug\netcoreapp3.1\APICatalogo.Domain.csproj.CoreCompileInputs.cache
-C:\Users\ander\Desktop\APICatalogo\APICatalogo.Domain\obj\Debug\netcoreapp3.1\APICatalogo.Domain.dll
-C:\Users\ander\Desktop\APICatalogo\APICatalogo.Domain\obj\Debug\netcoreapp3.1\APICatalogo.Domain.pdb
