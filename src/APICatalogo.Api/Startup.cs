@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using APICatalogo.Business.Interfaces;
 using APICatalogo.Data.Context;
 using APICatalogo.Data.Repositories;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,11 +30,11 @@ namespace APICatalogo.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<MyContext>(x=>x.UseSqlServer(Configuration.GetConnectionString("conecta")));
-
+            services.AddAutoMapper(typeof(Startup));
             services.AddScoped<MyContext>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<ICategoriaRepository, CategoriaRepository>();
-
+          
             services.AddControllers();
         }
 

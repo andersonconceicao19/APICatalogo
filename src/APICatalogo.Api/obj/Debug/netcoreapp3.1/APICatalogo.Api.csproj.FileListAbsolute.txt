@@ -107,8 +107,6 @@ C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\bin\Debug\netcoreapp3.1\A
 C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.csprojAssemblyReference.cache
 C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.AssemblyInfoInputs.cache
 C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.AssemblyInfo.cs
-C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.csproj.CoreCompileInputs.cache
-C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.RazorTargetAssemblyInfo.cache
 C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.csproj.CopyComplete
 C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\staticwebassets\APICatalogo.Api.StaticWebAssets.Manifest.cache
@@ -116,3 +114,7 @@ C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\s
 C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.dll
 C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.pdb
 C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.genruntimeconfig.cache
+C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.csproj.CoreCompileInputs.cache
+C:\Users\ander\Desktop\APICatalogo\src\APICatalogo.Api\obj\Debug\netcoreapp3.1\APICatalogo.Api.MvcApplicationPartsAssemblyInfo.cache
